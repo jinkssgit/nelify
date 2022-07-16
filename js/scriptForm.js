@@ -22,8 +22,13 @@ function retrieveFormValue(event) {
 	xhttp.open('GET', sendStr, true);
 	xhttp.send();
 
-	window.location.href = '/contact.html';
+	
 }
 
 
 form.addEventListener('submit', retrieveFormValue);
+
+
+
+
+window.location.href = '/contact.html';
