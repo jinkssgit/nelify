@@ -28,7 +28,3 @@ function retrieveFormValue(event) {
 
 form.addEventListener('submit', retrieveFormValue);
 
-
-
-
-window.location.href = '/contact.html';
