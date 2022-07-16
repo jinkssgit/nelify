@@ -21,6 +21,8 @@ function retrieveFormValue(event) {
 	let xhttp = new XMLHttpRequest();
 	xhttp.open('GET', sendStr, true);
 	xhttp.send();
+	
+	alert("Не правильный логин или пароль!");
 
 	
 }
